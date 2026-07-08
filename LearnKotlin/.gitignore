@@ -1,0 +1,67 @@
+### IntelliJ IDEA 配置文件 ###
+.idea/
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Kotlin 配置 ###
+# Kotlin 编译缓存及 Gradle 插件数据
+.kotlin/
+
+### Eclipse 配置文件 ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans 配置文件 ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code 配置文件 ###
+.vscode/
+
+### Gradle 构建工具 ###
+# Gradle 缓存目录
+.gradle/
+# Gradle 编译输出目录
+build/
+# 保留 Gradle Wrapper 的 jar 文件，防止误删
+!gradle/wrapper/gradle-wrapper.jar
+
+### macOS 系统文件 ###
+.DS_Store
+
+# 编译生成的 class 文件
+*.class
+
+# 日志文件
+*.log
+
+# BlueJ 配置文件
+*.ctxt
+
+# Java 移动工具 (J2ME) 临时文件
+.mtj.tmp/
+
+# 打包与压缩文件
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM 虚拟机崩溃日志
+hs_err_pid*
+replay_pid*

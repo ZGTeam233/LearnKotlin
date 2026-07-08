@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "myfirstmod",
+  "version": "${version}",
+  "name": "MyFirstMod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "Apache-2.0",
+  "icon": "assets/myfirstmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.github.zgteam233.myfirstmod.client.MyfirstmodDataGenerator"
+    ],
+    "client": [
+      "com.github.zgteam233.myfirstmod.client.MyfirstmodClient"
+    ],
+    "main": [
+      "com.github.zgteam233.myfirstmod.Myfirstmod"
+    ]
+  },
+  "mixins": [
+    "myfirstmod.mixins.json",
+    {
+      "config": "myfirstmod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
