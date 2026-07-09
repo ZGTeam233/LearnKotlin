@@ -8,8 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="red_500">#D81B60</color>
-
     <!-- 经典 Holo 主题绿色系 -->
     <color name="green_500">#4CAF50</color>
     <color name="green_600">#008577</color>
