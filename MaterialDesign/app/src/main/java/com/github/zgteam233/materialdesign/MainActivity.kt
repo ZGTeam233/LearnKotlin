@@ -21,6 +21,17 @@ class MainActivity : AppCompatActivity() {
             it.setDisplayHomeAsUpEnabled(true)
             it.setHomeAsUpIndicator(R.drawable.ic_menu)
         }
+
+        // 这个滑动菜单也是夹带私货了哈
+        binding.navView.setCheckedItem(R.id.navCall)
+        binding.navView.setNavigationItemSelectedListener {
+            binding.drawerLayout.closeDrawers()
+            true
+        }
+
+        binding.fab.setOnClickListener {
+            "FAB clicked".showToast()
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
