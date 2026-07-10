@@ -3,9 +3,12 @@ package com.github.zgteam233.activitytest
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import com.github.zgteam233.activitytest.databinding.SecondLayoutBinding
 
+//
+// Created by wsnzg6 on ${DATE}.
+// Copyright(c) $YEAR ZGTeam233.
+//
 class SecondActivity : BaseActivity() {
     companion object {
         fun actionStart(context: Context, data1: String, data2: String) {

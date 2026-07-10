@@ -3,6 +3,10 @@ package com.github.zgteam233.activitytest
 import android.os.Bundle
 import com.github.zgteam233.activitytest.databinding.ThirdLayoutBinding
 
+//
+// Created by wsnzg6 on ${DATE}.
+// Copyright(c) $YEAR ZGTeam233.
+//
 class ThirdActivity : BaseActivity() {
     private lateinit var binding: ThirdLayoutBinding
 

@@ -1,13 +1,14 @@
 package com.github.zgteam233.activitytest
 
-import android.app.ComponentCaller
-import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import com.github.zgteam233.activitytest.databinding.FirstLayoutBinding
 
+//
+// Created by wsnzg6 on ${DATE}.
+// Copyright(c) $YEAR ZGTeam233.
+//
 class FirstActivity : BaseActivity() {
     companion object {
         private const val TAG = "FirstActivity"
