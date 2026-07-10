@@ -1,5 +1,8 @@
 package com.github.zgteam233
 
+//
+// Copyright(c) 2026 ZGTeam233.
+//
 object StandardFunTest {
     val list = listOf("Apple", "Banana", "Orange", "Pear", "Grape")
 

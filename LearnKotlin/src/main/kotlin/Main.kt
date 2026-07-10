@@ -3,7 +3,9 @@ package com.github.zgteam233
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
-
+//
+// Copyright(c) 2026 ZGTeam233.
+//
 const val CHOICE = 2
 
 fun main() {
