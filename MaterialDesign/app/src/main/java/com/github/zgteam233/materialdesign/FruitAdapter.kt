@@ -9,6 +9,10 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 
+//
+// Created by wsnzg6 on 2026/7/9.
+// Copyright(c) 2026 ZGTeam233.
+//
 class FruitAdapter(val context: Context, val fruitList: List<Fruit>) :
         RecyclerView.Adapter<FruitAdapter.ViewHolder>() {
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {

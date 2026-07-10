@@ -6,8 +6,7 @@ import android.view.MenuItem
 import com.github.zgteam233.activitytest.databinding.FirstLayoutBinding
 
 //
-// Created by wsnzg6 on ${DATE}.
-// Copyright(c) $YEAR ZGTeam233.
+// Copyright(c) 2026 ZGTeam233.
 //
 class FirstActivity : BaseActivity() {
     companion object {

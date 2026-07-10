@@ -2,6 +2,9 @@ package com.github.zgteam233.materialdesign
 
 import android.widget.Toast
 
+//
+// Copyright(c) 2026 ZGTeam233.
+//
 fun String.showToast(duration: Int = Toast.LENGTH_SHORT) {
     Toast.makeText(MyApplication.context, this, duration).show()
 }

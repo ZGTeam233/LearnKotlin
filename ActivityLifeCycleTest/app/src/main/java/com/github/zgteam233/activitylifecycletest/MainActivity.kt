@@ -7,6 +7,9 @@ import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import com.github.zgteam233.activitylifecycletest.databinding.ActivityMainBinding
 
+//
+// Copyright(c) 2026 ZGTeam233.
+//
 class MainActivity : AppCompatActivity() {
     companion object {
         private const val TAG = "MainActivity"

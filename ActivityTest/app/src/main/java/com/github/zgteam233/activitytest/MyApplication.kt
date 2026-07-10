@@ -4,8 +4,7 @@ import android.app.Application
 import android.content.Context
 
 //
-// Created by wsnzg6 on ${DATE}.
-// Copyright(c) $YEAR ZGTeam233.
+// Copyright(c) 2026 ZGTeam233.
 //
 class MyApplication : Application() {
     companion object {

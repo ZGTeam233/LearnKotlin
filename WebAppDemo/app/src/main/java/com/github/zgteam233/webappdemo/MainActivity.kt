@@ -14,6 +14,9 @@ import android.webkit.WebResourceError
 import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 
+//
+// Copyright(c) 2026 ZGTeam233.
+//
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding

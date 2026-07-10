@@ -6,8 +6,7 @@ import android.os.Bundle
 import com.github.zgteam233.activitytest.databinding.SecondLayoutBinding
 
 //
-// Created by wsnzg6 on ${DATE}.
-// Copyright(c) $YEAR ZGTeam233.
+// Copyright(c) 2026 ZGTeam233.
 //
 class SecondActivity : BaseActivity() {
     companion object {

@@ -4,6 +4,9 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.github.zgteam233.activitylifecycletest.databinding.ActivityDialogBinding
 
+//
+// Copyright(c) 2026 ZGTeam233.
+//
 class DialogActivity : AppCompatActivity() {
     lateinit var binding: ActivityDialogBinding
 

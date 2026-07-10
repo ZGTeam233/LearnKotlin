@@ -10,6 +10,9 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.github.zgteam233.materialdesign.databinding.ActivityMainBinding
 import kotlin.concurrent.thread
 
+//
+// Copyright(c) 2026 ZGTeam233.
+//
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
 

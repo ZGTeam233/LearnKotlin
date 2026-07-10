@@ -3,6 +3,9 @@ package com.github.zgteam233.materialdesign
 import android.view.View
 import com.google.android.material.snackbar.Snackbar
 
+//
+// Copyright(c) 2026 ZGTeam233.
+//
 fun View.showSnackbar(text: String,
                       actionText: String? = null,
                       duration: Int = Snackbar.LENGTH_SHORT,
