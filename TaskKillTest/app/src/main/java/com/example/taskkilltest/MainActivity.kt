@@ -106,14 +106,14 @@ class MainActivity : AppCompatActivity() {
                     if (result.isEmpty()) {
                         binding.tvResult.text = "执行成功，但无输出 (可能命令不兼容当前系统)"
                     } else {
-                        binding.tvResult.text = "✅ 成功获取进程列表 (前30行):\n\n$result"
+                        binding.tvResult.text = "成功获取进程列表 (前30行):\n\n$result"
                     }
                     binding.btnClean.isEnabled = true
                 }
             } catch (e: Exception) {
                 e.printStackTrace()
                 runOnUiThread {
-                    binding.tvResult.text = "❌ 执行出错:\n${e.message}\n\n请检查:\n1. Shizuku 是否已激活\n2. 是否已授予本应用权限"
+                    binding.tvResult.text = "执行出错:\n${e.message}\n\n请检查:\n1. Shizuku 是否已激活\n2. 是否已授予本应用权限"
                     binding.btnClean.isEnabled = true
                 }
             }
