@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.taskkilltest.databinding.ActivityMainBinding
 import rikka.shizuku.Shizuku
 import android.content.pm.PackageManager
-import java.io.BufferedReader
-import java.io.InputStreamReader
 import kotlin.concurrent.thread
 
 class MainActivity : AppCompatActivity() {
